@@ -1,0 +1,10 @@
+.table-sty {
+    background-color: #135052;
+    border: 1px solid #dbdbdb;
+    color: white;
+    font-size: 18px;
+}
+table td, th {
+    width: 128px;
+    height: 20;
+}
