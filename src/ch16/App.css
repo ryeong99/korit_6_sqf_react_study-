@@ -1,0 +1,58 @@
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+    background: rgb(250,212,28);
+    background: linear-gradient(0deg, rgba(250,212,28,1) 50%, rgba(250,212,28,1) 50%);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.back-ground {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.img-continer {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color:  white;
+    overflow:hidden;
+    cursor: pointer;
+    & > img {
+        width: 100%;
+    }
+}
+
+input,button {
+    display: flex;
+    border-radius: 10%;
+    width: 500px;
+    height: 50px;
+    background-color: white;
+}
+
